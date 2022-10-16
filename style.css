@@ -109,3 +109,12 @@
     overflow: hidden;
     outline: none;
 }
+
+.Saved_Background {
+    background-image: url(savedReels.png);
+    background-size: cover;
+    position: relative;
+    width: 1400px;
+    height: 800px;
+    overflow: scroll;
+}
