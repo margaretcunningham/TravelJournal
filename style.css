@@ -61,3 +61,11 @@
     height: 900px;
     overflow: scroll;
 }
+.Home_Background {
+    background-image: url(Home.png);
+    background-size: cover;
+    position: relative;
+    width: 1500px;
+    height: 900px;
+    overflow: scroll;
+}
