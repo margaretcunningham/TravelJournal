@@ -21,10 +21,10 @@ path:hover {
 #us-map {
     display: block;
     position: absolute;
-    top: 25%;
-    left: 16%;
-    width: 50%;
-    height: 50%;
+    top: 30%;
+    left: 24%;
+    width: 60%;
+    height: 60%;
 }
 
 #details-box {

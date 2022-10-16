@@ -37,7 +37,7 @@
 }
  
 .entry{
-    top: 50%;
+    top: 43%;
     left: 5%;
     font-size: 20pt;
     position: absolute;
@@ -123,7 +123,7 @@
 }
 
 .Saved_Background {
-    background-image: url(savedReels.png);
+    background-image: url(SavedReel.png);
     background-size: cover;
     position: relative;
     width: 1400px;
@@ -132,7 +132,7 @@
 }
 
 .ViewMap_Button{
-    top: 73%;
-    right: 17%;
+    top: 69%;
+    right: 17.5%;
     position: absolute;
 }
