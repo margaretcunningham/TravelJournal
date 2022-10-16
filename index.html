@@ -213,22 +213,24 @@
 
 <body> 
     <body>
-        <div style="top:100px;position: absolute;top:40%;left:11%">
-        <tr height="100%">
-        <td height="100%" width="100%" valign="middle" align="center">
+        <div style="top:100px;position: absolute;top:35%;left:10%">
+        <tr height="200px">
+        <td height="200px" width="60px" valign="middle" align="center">
             <!--Options for the All Your Reels Drop Down Menu--The places that you've been and have journal entries for-->
             <form>
-                <select id="mySelect">
-                <option>All your reels</option>
-                <option>California</option>
+                
+                <select id="mySelect" style="width: 200px; height: 50px; font-size: 15px; font-weight: bold;">
+                <option>All Your Reels</option>
+                <optian>California</option>
                 <option>Colorado</option>
                 <option>Hawaii</option>
                 <option>Kentucky</option>
                 <option>New York</option>
                 <option>Japan</option>
                 </select>
+                
                 <br><br>
-                <input type="button" onclick="getOption()" value="Submit" class = "DropDown" style="background-color:rgb(218, 220, 255)">
+                <input type="button" onclick="getOption()" value="Submit" class = "DropDown" style="background-color:rgb(218, 220, 255); width: 200px; height: 60px; font-size: 20px; font-weight: bold;">
                 </form>
                 <p id="demo"></p>
                 </td>
@@ -238,25 +240,25 @@
         </form>
         <!--All the Buttons on the homepage-->
         <div class = SavedReels_Button>
-            <input type="button" onclick="goSavedReels()" value="Go to Saved Reels">
+            <input type="button" onclick="goSavedReels()" value="Go to Saved Reels" style="width: 200px; height: 60px; font-size: 20px; font-weight: bold; background-color: rgb(218, 220, 255)">
         </div>
         <div class = Profile_Button>
             <input type="button" onclick="goProfile()" style="border:1px solid white; background-color: transparent; width:200px; height:60px" >
         </div>
         <div class = NewReal_Button>
-            <input type="button" onclick="goNewReel()" value= "Create New Reel" style="width:200px;" >
+            <input type="button" onclick="goNewReel()" value= "Create" style="width: 200px; height: 60px; font-size: 20px; font-weight: bold; background-color: rgb(218, 220, 255)" >
         </div>
 
         <div class = ViewMap_Button>
-            <input type="button" onclick="goViewMap()" value= "View Map" >
+            <input type="button" onclick="goViewMap()" value= "View Map" style="width: 200px; height: 60px; font-size: 20px; font-weight: bold; background-color: black; color: white" >
         </div>
 </body>
-        <div style="top:100px; position: absolute;top:50%;left:11%">
+        <div style="top:100px; position: absolute;top:55%;left:10%">
             <tr height="100%">
             <td height="100%" width="100%" valign="middle" align="center">
             <form>
                 <!--Bookmarked Places Drop Down Menu Options-->
-                <select id="mySelect2">
+                <select id="mySelect2" style="width: 200px; height: 50px; font-size: 15px; font-weight: bold;">
                 <option>Bookmarked Places</option>
                 <option>Connecticut</option>
                 <option>Delaware</option>
@@ -272,7 +274,7 @@
                 <option>DC</option>
                 </select>
                 <br><br>
-                <input type="button" onclick="getOption2()" value="Submit" class = "DropDown" style="background-color:rgb(218, 220, 255)">
+                <input type="button" onclick="getOption2()" value="Submit" class = "DropDown" style="background-color:rgb(218, 220, 255); width: 200px; height: 60px; font-size: 20px; font-weight: bold;">
                 </form>
                 <p id="demo2"></p>
                 </td>
