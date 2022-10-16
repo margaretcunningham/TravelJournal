@@ -22,25 +22,33 @@
 }
 
 .state{
-    top: 10%;
-    left: 30%;
+    color: rgb(255, 0, 136);
+    top: 8%;
+    left: 25%;
+    font-size: 50pt;
     position: absolute;
 }
 
 .cities{
+    color: rgb(255, 0, 136);
     top: 23%;
     left: 20%;
+    font-size: 20pt;
     position: absolute;
 }
  
 .entry{
-    top: 52%;
+    color: rgb(255, 0, 136);
+    top: 55%;
     left: 5%;
+    font-size: 20pt;
     position: absolute;
 }
 
 .visits{
-    top: 8%;
+    color: rgb(255, 0, 136);
+    font-size: 40pt;
+    top: 2%;
     left: 75%;
     position: absolute;
 }
