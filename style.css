@@ -1,0 +1,18 @@
+.heading{
+    display: block;
+    position: absolute;
+    color: rgb(255, 0, 136);
+    top: 0%;
+    left: 38%;
+    font-size: 40pt;
+}
+
+.subheading{
+    display: block;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 30%;
+    left: 45%;
+    font-size: 17pt;
+}
+
