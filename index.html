@@ -251,4 +251,12 @@
         <div class = SavedReels_Button>
             <input type="button" onclick="goSavedReels()" value="Go to Saved Reels">
         </div>
+
+        <button id="btn">Public</button>
+        <script>
+            const btn = document.getElementById('btn');
+            btn.addEventListener('click', function handleClick() {
+            btn.textContent = 'Private';
+});
+        </script>
 </body>
