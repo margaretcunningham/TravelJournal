@@ -172,11 +172,16 @@
       getJournal(obj.options[obj.selectedIndex].text)
     }
 
+    function goSavedReels() {
+        // if button is clicked, go to home page
+        window.location.href = "SavedReels.html";
+    }
 
     </script>
     
 
 </head>
+
 
 <body> 
     <body>
@@ -184,8 +189,6 @@
           <table border="1" align="center">
            <tr height="100%">
             <td height="100%" width="100%" valign="middle" align="center">
-
-
                 <form>
                     Select the state you just visited:
                     <select id="mySelect">
@@ -255,4 +258,23 @@
             </table>
         </div>
     </body>
+
+
+
+        <input type="button" onclick="getOption()" value="Submit" class = "DropDown">
+        </form>
+        
+        <p id="demo"></p>
+
+        <div class = SavedReels_Button>
+            <input type="button" onclick="goSavedReels()" value="Go to Saved Reels">
+        </div>
+
+        <button id="btn">Public</button>
+        <script>
+            const btn = document.getElementById('btn');
+            btn.addEventListener('click', function handleClick() {
+            btn.textContent = 'Private';
+});
+        </script>
 </body>
