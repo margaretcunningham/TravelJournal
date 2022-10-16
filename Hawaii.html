@@ -6,6 +6,12 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <div class="Background"></div>
+    <script>
+        function goHome() {
+            // if button is clicked, go to home page
+            window.location.href = "index.html";
+        }
+     </script>
     <body>
         <div class = "state">
             <h> Hawaii </h>
@@ -26,5 +32,6 @@
             <img src="Hawaii.png" alt="HI" width="655" height="572" mix-blend-mode: multiply;>
         </div>
         
+        <input type="button" onclick="goHome()" value="Go Home" >
     </body>
 </html>
