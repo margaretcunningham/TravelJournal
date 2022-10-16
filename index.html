@@ -172,11 +172,16 @@
       getJournal(obj.options[obj.selectedIndex].text)
     }
 
+    function goSavedReels() {
+        // if button is clicked, go to home page
+        window.location.href = "SavedReels.html";
+    }
 
     </script>
     
 
 </head>
+
 
 <body> 
 
@@ -242,6 +247,10 @@
         </form>
         
         <p id="demo"></p>
+
+        <div class = SavedReels_Button>
+            <input type="button" onclick="goSavedReels()" value="Go to Saved Reels">
+        </div>
 
         <button id="btn">Public</button>
         <script>

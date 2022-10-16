@@ -82,6 +82,13 @@
     height: 800px;
     overflow: scroll;
 }
+
+.SavedReels_Button {
+    top: 40%;
+    left: 77%;
+    position: absolute;
+}
+
 .Profile_Background {
     background-image: url(Profile.png);
     background-size: cover;
