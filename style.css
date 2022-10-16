@@ -16,12 +16,48 @@
     font-size: 17pt;
 }
 
-.Kentucky{
-    display: block;
-    position: absolute;
-    color: rgb(255, 255, 255);
-    top: 30%;
-    left: 45%;
-    font-size: 17pt;
+.DropDown{
+    top: 50%;
+    left: 50%;
 }
 
+.state{
+    top: 10%;
+    left: 30%;
+    position: absolute;
+}
+
+.cities{
+    top: 23%;
+    left: 20%;
+    position: absolute;
+}
+ 
+.entry{
+    top: 52%;
+    left: 5%;
+    position: absolute;
+}
+
+.visits{
+    top: 8%;
+    left: 75%;
+    position: absolute;
+}
+
+.statePhoto{
+    width: 300px;
+    height: 300px;
+    top: 7%;
+    left: 45%;
+    position: absolute;
+}
+
+.Background {
+    background-image: url(CanvasKy.png);
+    background-size: cover;
+    position: relative;
+    width: 1500px;
+    height: 900px;
+    overflow: scroll;
+}
