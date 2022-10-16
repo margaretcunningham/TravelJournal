@@ -11,6 +11,9 @@
         if (x == "Kentucky") {
             window.location = "Kentucky.html";
         }
+        if (x == "Japan") {
+            window.location = "Japan.html";
+        }
         else if (x == "Ohio") {
             window.location = "Ohio.html";
         }
@@ -197,6 +200,11 @@
         window.location.href = "MakeNewReal.html";
     }
 
+    function goViewMap() {
+        // if button is clicked, go to home page
+        window.location.href = "Map.html";
+    }
+
     </script>
 </head>
 
@@ -234,6 +242,10 @@
         </div>
         <div class = NewReal_Button>
             <input type="button" onclick="goNewReel()" value= "Create New Reel" style="width:200px;" >
+        </div>
+
+        <div class = ViewMap_Button>
+            <input type="button" onclick="goViewMap()" value= "View Map" >
         </div>
 </body>
         <div style="top:100px; position: absolute;top:50%;left:10%">
