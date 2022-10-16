@@ -1,11 +1,9 @@
 # TravelJournal
 Authors: Tiffany Clark, Sydney Schenk, Margaret Cunningham, Emily Behrendsen
 
-Sources: 
+Credit: 
 [LICENSE.txt](https://github.com/margaretcunningham/TravelJournal/files/9794123/LICENSE.txt)
-
-
-interactive map:
+Interactive Map:
 https://codepen.io/codecustard/pen/NWpZxey
 
 Description of Project:
