@@ -22,19 +22,18 @@
 }
 
 .state{
-    color: rgb(255, 0, 136);
-    top: 8%;
-    left: 25%;
-    font-size: 50pt;
+
+    top: 7%;
+    left: 27%;
     position: absolute;
+    font-size: 40pt;
 }
 
 .cities{
-    color: rgb(255, 0, 136);
-    top: 23%;
-    left: 20%;
-    font-size: 20pt;
+    top: 17.5%;
+    left: 15%;
     position: absolute;
+    font-size: 20pt;
 }
  
 .entry{
@@ -43,14 +42,14 @@
     left: 5%;
     font-size: 20pt;
     position: absolute;
+    font-size: 25pt;
 }
 
 .visits{
-    color: rgb(255, 0, 136);
-    font-size: 40pt;
-    top: 2%;
+    top: 0px;
     left: 75%;
     position: absolute;
+    font-size: 50pt;
 }
 
 .statePhoto{
