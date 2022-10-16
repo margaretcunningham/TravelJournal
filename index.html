@@ -8,7 +8,8 @@
   <script>
     function getJournal(x) {
         if (x == "Kentucky") {
-            document.write(x)
+            var a = document.getElementById("kentucky");
+            a.style.color = 'red';
         }
     }
     function getOption() {
@@ -88,6 +89,12 @@
     <div class="heading">
         <a id="textbox1">
             <h1> TELP </h1>
+        </a>
+    </div>
+
+    <div class="Kentucky">
+        <a id="kentucky">
+            <h1>  hello </h1>
         </a>
     </div>
 
