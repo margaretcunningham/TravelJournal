@@ -5,7 +5,8 @@
   <title>TELP</title>
   <link rel="stylesheet" href="./style.css">
   <div class="Home_Background"></div>
-  <script>
+  <!--Opens the html file corresponding to the selected state-->
+  <script>  
     function getJournal(x) {
         if (x == "Kentucky") {
             window.location = "Kentucky.html";
@@ -168,6 +169,7 @@
         }
 
     }
+    //Gets user's selected option from the All Your Reels dropdown menu
     function getOption() {
       var obj = document.getElementById("mySelect");
       document.getElementById("demo").innerHTML = 
@@ -175,23 +177,24 @@
       getJournal(obj.options[obj.selectedIndex].text)
     }
 
+    //Gets user's selected option from the Bookmarked Reels dropdown menu
     function getOption2() {
       var obj = document.getElementById("mySelect2");
       document.getElementById("demo2").innerHTML = 
       obj.options[obj.selectedIndex].text;
       getJournal(obj.options[obj.selectedIndex].text)
     }
-
+    // Goes to the Saved Reels html page
     function goSavedReels() {
         // if button is clicked, go to home page
         window.location.href = "SavedReels.html";
     }
-
+    // Goes to the Profile html file
     function goProfile() {
         // if button is clicked, go to home page
         window.location.href = "Profile.html";
     }
-
+    // Goes to the Make New Real html file
     function goNewReel() {
         // if button is clicked, go to home page
         window.location.href = "MakeNewReal.html";
@@ -203,58 +206,40 @@
     }
 
     </script>
-    
-
 </head>
-
 
 <body> 
     <body>
         <div style="top:100px;position: absolute;top:35%;left:10%">
-          
         <tr height="100%">
         <td height="100%" width="100%" valign="middle" align="center">
+            <!--Options for the All Your Reels Drop Down Menu--The places that you've been and have journal entries for-->
             <form>
-                
                 <select id="mySelect">
                 <option>All your reels</option>
-                
                 <option>California</option>
                 <option>Colorado</option>
                 <option>Hawaii</option>
-                
                 <option>Kentucky</option>
-                
                 <option>New York</option>
                 <option>Japan</option>
                 </select>
                 <br><br>
-
                 <input type="button" onclick="getOption()" value="Submit" class = "DropDown" style="background-color:rgb(196, 186, 244)">
-                
                 </form>
-                
                 <p id="demo"></p>
-
                 </td>
             </tr>
-            
         </div>
     </body>
-
-
         </form>
-        
-        <p id="demo"></p>
-
+        <!--All the Buttons on the homepage-->
         <div class = SavedReels_Button>
             <input type="button" onclick="goSavedReels()" value="Go to Saved Reels">
         </div>
-
         <div class = Profile_Button>
             <input type="button" onclick="goProfile()" style="border:1px solid white; background-color: transparent; width:200px; height:60px" >
         </div>
-
         <div class = NewReal_Button>
             <input type="button" onclick="goNewReel()" value= "Create New Reel" style="width:200px;" >
         </div>
@@ -263,52 +248,32 @@
             <input type="button" onclick="goViewMap()" value= "View Map" >
         </div>
 </body>
-
-
-         <!--bookmarks  -->
         <div style="top:100px; position: absolute;top:50%;left:10%">
-        
             <tr height="100%">
             <td height="100%" width="100%" valign="middle" align="center">
             <form>
+                <!--Bookmarked Places Drop Down Menu Options-->
                 <select id="mySelect2">
                 <option>Bookmarked Places</option>
-                
-                
                 <option>Connecticut</option>
                 <option>Delaware</option>
                 <option>Florida</option>
-                
-                
                 <option>Illinois</option>
-            
                 <option>Montana</option>
                 <option>Nevada</option>
-            
                 <option>New Jersey</option>
-                
-                
                 <option>North Carolina</option>
-                
                 <option>Oregon</option>
-                
                 <option>Tennessee</option>
-                <option>Texas</option>
-                
-                                    
+                <option>Texas</option>                        
                 <option>DC</option>
                 </select>
                 <br><br>
-
                 <input type="button" onclick="getOption2()" value="Submit" class = "DropDown" style="background-color:rgb(196, 186, 244)">
-                
                 </form>
-                
                 <p id="demo2"></p>
-
                 </td>
             </tr>
-           
         </div>
     </body>
 </body>
