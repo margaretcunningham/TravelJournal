@@ -75,7 +75,7 @@
 }
 
 .Home_Background {
-    background-image: url(Home.png);
+    background-image: url(homebackground2.png);
     background-size: cover;
     position: relative;
     width: 1400px;
@@ -110,6 +110,18 @@
     outline: none;
 }
 
+.NewReal_Button{
+    position: absolute;
+    top: 40%;
+    left: 41.2%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
 .Saved_Background {
     background-image: url(savedReels.png);
     background-size: cover;
@@ -118,3 +130,4 @@
     height: 800px;
     overflow: scroll;
 }
+
