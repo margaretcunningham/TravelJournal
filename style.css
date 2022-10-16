@@ -84,8 +84,8 @@
 }
 
 .SavedReels_Button {
-    top: 40%;
-    left: 77%;
+    top: 34.8%;
+    left: 75%;
     position: absolute;
 }
 
@@ -112,7 +112,7 @@
 
 .NewReal_Button{
     position: absolute;
-    top: 40%;
+    top: 34.8%;
     left: 41.2%;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@
 }
 
 .ViewMap_Button{
-    top: 69%;
-    right: 17.5%;
+    top: 67%;
+    right: 13%;
     position: absolute;
 }
