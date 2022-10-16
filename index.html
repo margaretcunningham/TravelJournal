@@ -7,11 +7,14 @@
 
   <script>
     function getJournal(x) {
+        var a = document.getElementById("kentucky");
+        
         if (x == "Kentucky") {
-            var a = document.getElementById("kentucky");
             a.style.display = 'block';
             a.style.color = 'red';
         }
+        else
+            a.style.color = 'white'
     }
     function getOption() {
       var obj = document.getElementById("mySelect");
