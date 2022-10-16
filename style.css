@@ -131,3 +131,8 @@
     overflow: scroll;
 }
 
+.ViewMap_Button{
+    top: 70%;
+    left: 10%;
+    position: absolute;
+}
