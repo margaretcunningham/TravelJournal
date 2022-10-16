@@ -6,11 +6,18 @@
   <link rel="stylesheet" href="./style.css">
 
   <script>
+    function getJournal(x) {
+        if (x == "Kentucky") {
+            document.write(x)
+        }
+    }
     function getOption() {
       var obj = document.getElementById("mySelect");
       document.getElementById("demo").innerHTML = 
       obj.options[obj.selectedIndex].text;
+      getJournal(obj.options[obj.selectedIndex].text)
     }
+
     </script>
 
 </head>
@@ -84,9 +91,4 @@
         </a>
     </div>
 
-    <div class="subheading">
-        <a id="textbox2">
-            <p> Instructions </p>
-        </a>
-    </div>
 </body>
