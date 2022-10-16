@@ -82,3 +82,11 @@
     height: 800px;
     overflow: scroll;
 }
+.Profile_Background {
+    background-image: url(Profile.png);
+    background-size: cover;
+    position: relative;
+    width: 1400px;
+    height: 800px;
+    overflow: scroll;
+}

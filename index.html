@@ -242,4 +242,12 @@
         </form>
         
         <p id="demo"></p>
+
+        <button id="btn">Public</button>
+        <script>
+            const btn = document.getElementById('btn');
+            btn.addEventListener('click', function handleClick() {
+            btn.textContent = 'Private';
+});
+        </script>
 </body>
