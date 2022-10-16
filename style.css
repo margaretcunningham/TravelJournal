@@ -22,6 +22,7 @@
 }
 
 .state{
+
     top: 7%;
     left: 27%;
     position: absolute;
@@ -36,8 +37,10 @@
 }
  
 .entry{
-    top: 52%;
+    color: rgb(255, 0, 136);
+    top: 55%;
     left: 5%;
+    font-size: 20pt;
     position: absolute;
     font-size: 25pt;
 }
