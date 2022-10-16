@@ -21,10 +21,10 @@ path:hover {
 #us-map {
     display: block;
     position: absolute;
-    top: 20%;
-    left: 11.2%;
-    width: 70%;
-    height: 70%;
+    top: 25%;
+    left: 16%;
+    width: 50%;
+    height: 50%;
 }
 
 #details-box {
@@ -41,4 +41,13 @@ path:hover {
     transform: translateX(-50%);
     transition: opacity .4s ease;
     z-index: 1;
+}
+
+.mapBackground {
+    background-image: url(MapPG.png);
+    background-size: cover;
+    position: relative;
+    width: 1400px;
+    height: 800px;
+    overflow: scroll;
 }
