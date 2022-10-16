@@ -37,7 +37,7 @@
 }
  
 .entry{
-    top: 55%;
+    top: 50%;
     left: 5%;
     font-size: 20pt;
     position: absolute;
@@ -108,4 +108,13 @@
     cursor: pointer;
     overflow: hidden;
     outline: none;
+}
+
+.Saved_Background {
+    background-image: url(savedReels.png);
+    background-size: cover;
+    position: relative;
+    width: 1400px;
+    height: 800px;
+    overflow: scroll;
 }
