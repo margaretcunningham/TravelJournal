@@ -22,27 +22,31 @@
 }
 
 .state{
-    top: 10%;
-    left: 30%;
+    top: 7%;
+    left: 27%;
     position: absolute;
+    font-size: 40pt;
 }
 
 .cities{
-    top: 23%;
-    left: 20%;
+    top: 17.5%;
+    left: 15%;
     position: absolute;
+    font-size: 20pt;
 }
  
 .entry{
     top: 52%;
     left: 5%;
     position: absolute;
+    font-size: 25pt;
 }
 
 .visits{
-    top: 8%;
+    top: 0px;
     left: 75%;
     position: absolute;
+    font-size: 50pt;
 }
 
 .statePhoto{
