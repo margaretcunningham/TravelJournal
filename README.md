@@ -18,6 +18,6 @@ The saved reels pops a page with saved reels. The create a new reel pops up a fo
 is color coded based on the key of whether the user has visited it, bookmarked it, or has not visited it. 
 
 Future Work:
--No longer hard code the journal entries. Instead get all the information from the user.
--Be able to submit the create new reels information to actually create a new reel and journal entry
--Expand the application to be allow the user to input locations outside the United States
+*No longer hard code the journal entries. Instead get all the information from the user.
+*Be able to submit the create new reels information to actually create a new reel and journal entry
+*Expand the application to be allow the user to input locations outside the United States
