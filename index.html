@@ -177,6 +177,11 @@
         window.location.href = "SavedReels.html";
     }
 
+    function goProfile() {
+        // if button is clicked, go to home page
+        window.location.href = "Profile.html";
+    }
+
     </script>
     
 
@@ -271,6 +276,11 @@
         </div>
 
         <button id="btn">Public</button>
+
+        <div class = Profile_Button>
+            <input type="button" onclick="goProfile()" style="border:1px solid white; background-color: transparent; width:200px; height:60px" >
+        </div>
+
         <script>
             const btn = document.getElementById('btn');
             btn.addEventListener('click', function handleClick() {
